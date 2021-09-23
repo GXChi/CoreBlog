@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBlog.Api", "CoreBlog.Api\CoreBlog.Api.csproj", "{B328A4C1-5BA0-4D58-B837-22909D3A5520}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{C1C316E9-3606-4AE6-AFE4-13DE09B30C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Repositroy", "2.Repositroy", "{D1FD3E78-8607-4340-B504-2CDA9B54ADDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Services", "3.Services", "{AA9EDA9D-FB83-4835-9553-AD1B9CFAAC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Entity", "4.Entity", "{8DA11766-CAAD-4EDE-B73A-2E413D10E31B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.App", "5.App", "{DFD259D5-0F32-40C9-805E-976D4542EDEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Library", "6.Library", "{F5412941-D130-470E-AFF1-69ACD54F599C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreBlog.Api", "5.App\CoreBlog.Api\CoreBlog.Api.csproj", "{F3A72830-CFC2-4FB0-99BC-608D99795C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +23,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B328A4C1-5BA0-4D58-B837-22909D3A5520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B328A4C1-5BA0-4D58-B837-22909D3A5520}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B328A4C1-5BA0-4D58-B837-22909D3A5520}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B328A4C1-5BA0-4D58-B837-22909D3A5520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A72830-CFC2-4FB0-99BC-608D99795C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A72830-CFC2-4FB0-99BC-608D99795C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A72830-CFC2-4FB0-99BC-608D99795C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A72830-CFC2-4FB0-99BC-608D99795C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3A72830-CFC2-4FB0-99BC-608D99795C07} = {DFD259D5-0F32-40C9-805E-976D4542EDEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C9DFD27-A1C0-4AEF-8FB0-6D1BD6BF303F}
