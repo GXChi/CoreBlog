@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreBlog.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CoreBlog.Api.Controllers.WeatherForecastController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="M:CoreBlog.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            测试action
+            </summary>
+            <returns>list</returns>
+        </member>
+    </members>
+</doc>

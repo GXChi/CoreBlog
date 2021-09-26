@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreBlog.Common\CoreBlog.Common.csproj" />
+  </ItemGroup>
+
+</Project>
